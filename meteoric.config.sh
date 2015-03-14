@@ -1,5 +1,5 @@
 # IP or URL of the server you want to deploy to
-APP_HOST=http://jamesbaxley.com
+APP_HOST=52.11.217.9
 
 # If you want a different ROOT_URL, when using a load balancer for instance, set it here
 #ROOT_URL=mycustom.url.com
