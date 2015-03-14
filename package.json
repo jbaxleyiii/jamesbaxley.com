@@ -1,0 +1,22 @@
+{
+  "name": "jamesbaxley.com",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "norma-meteor": "^0.3.8",
+    "norma-mocha-casperjs": "^0.1.10"
+  },
+  "dependencies": {
+    "norma-bower": "^0.3.2",
+    "norma-copy": "^0.4.0",
+    "norma-javascript": "^0.4.1",
+    "norma-markup": "^0.5.1",
+    "norma-sass": "^0.4.5"
+  }
+}

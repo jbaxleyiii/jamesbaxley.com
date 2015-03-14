@@ -5,13 +5,14 @@
       "out/packages": {
         "junction": "NewSpring/junction"
       },
-      "/out": {
-        "settings": "https://github.com/NewSpring/settings.git"
+      "vendor": {
+        "mixins": "normajs/holtzmann-mixins",
+        "framework": "normajs/holtzmann-framework"
       }
     },
     "sass": {
-      "src": "raw/client/**/*",
-      "dest": "out/client/",
+      "src": "raw/client/stylesheets/**/*",
+      "dest": "out/client/stylesheets",
       "lint": true,
       "comb": true
     },
@@ -33,17 +34,43 @@
       "src": "raw/private/**/*",
       "dest": "out/private"
     },
+    "settings": {
+      "@extend": "copy",
+      "src": "./settings",
+      "dest": "out/settings/",
+      "ext": ["json"]
+    },
     "meteor": {
       "dev": true,
       "src": "out",
-      "settings": "out/settings/settings.json",
       "build": {
         "dest": "build",
         "server": "localhost:3000"
       },
       "packages": [
         "meteor-platform",
-        "newspring:junction"
+        "newspring:junction",
+        "iron:router",
+        "fastclick",
+        "browser-policy",
+        "raix:handlebar-helpers",
+        "zimme:iron-router-auth",
+        "meteorhacks:fast-render",
+        "aldeed:collection2",
+        "matb33:collection-hooks",
+        "coffeescript",
+        "cfs:standard-packages",
+        "anti:fake",
+        "aldeed:autoform",
+        "manuelschoebel:ms-seo",
+        "alanning:roles",
+        "mizzao:user-status",
+        "meteorhacks:kadira",
+        "useraccounts:core",
+        "useraccounts:unstyled",
+        "accounts-password",
+        "ryw:blog",
+        "meteorhacks:kadira"
       ],
       "platforms": [
         "server",
