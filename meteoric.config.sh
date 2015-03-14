@@ -5,7 +5,7 @@ APP_HOST=52.11.217.9
 #ROOT_URL=mycustom.url.com
 
 # Comment this if your host is not an EC2 instance
-EC2_PEM_FILE=~/.ssh/proxynet.pem
+EC2_PEM_FILE=./workbench.pem
 
 # What's your project's Git repo?
 GIT_URL=git://github.com/jbaxleyiii/jamesbaxley.com.git
@@ -23,7 +23,9 @@ METEOR_RELEASE=1.0.3.4
 APP_NAME=jamesbaxley.com
 
 # If your app is not on the repository root, set this
-APP_PATH=./out
+APP_PATH=.
+
+METEOR_APP=./out
 
 # If you would like to use a different branch, set it here
 GIT_BRANCH=master
@@ -33,4 +35,4 @@ FORCE_CLEAN=false
 
 # If you want to do something before forever starts Meteor, you can do it here
 # NOTE: Don't forget to use a semi-colon at the end of every command
-#PRE_METEOR_START="export ENVIRONMENT=prod;"
+# PRE_METEOR_START="export ENVIRONMENT=prod;"
