@@ -14,7 +14,7 @@ GIT_URL=git://github.com/jbaxleyiii/jamesbaxley.com.git
 METEORITE=false
 
 # If not using Meteorite, you need to specify this
-METEOR_RELEASE=1.0.3.4
+METEOR_RELEASE=1.0.3.2
 
 #If you have an external service, such as Google SMTP, set this
 #MAIL_URL=smtp://USERNAME:PASSWORD@smtp.googlemail.com:465
