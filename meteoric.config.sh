@@ -20,12 +20,14 @@ METEOR_RELEASE=1.0.3.2
 #MAIL_URL=smtp://USERNAME:PASSWORD@smtp.googlemail.com:465
 
 # What's your app name?
-APP_NAME=jamesbaxley.com
+APP_NAME=out
 
 # If your app is not on the repository root, set this
 APP_PATH=.
 
+# Specify location of .meteor folder
 METEOR_APP=./out
+
 
 # If you would like to use a different branch, set it here
 GIT_BRANCH=master
