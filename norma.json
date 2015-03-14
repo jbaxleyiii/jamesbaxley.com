@@ -1,0 +1,65 @@
+{
+  "name": "jamesbaxley.com",
+  "tasks": {
+    "bower": {
+      "out/packages": {
+        "junction": "NewSpring/junction"
+      },
+      "/out": {
+        "settings": "https://github.com/NewSpring/settings.git"
+      }
+    },
+    "sass": {
+      "src": "raw/client/**/*",
+      "dest": "out/client/",
+      "lint": true,
+      "comb": true
+    },
+    "javascript": {
+      "src": "raw/**/*",
+      "dest": "out"
+    },
+    "markup": {
+      "src": "raw/client/templates/**/*",
+      "dest": "out/client/templates",
+      "minify": false
+    },
+    "copy": {
+      "src": "raw/public/**/*",
+      "dest": "out/public"
+    },
+    "private": {
+      "@extend": "copy",
+      "src": "raw/private/**/*",
+      "dest": "out/private"
+    },
+    "meteor": {
+      "dev": true,
+      "src": "out",
+      "settings": "out/settings/settings.json",
+      "build": {
+        "dest": "build",
+        "server": "localhost:3000"
+      },
+      "packages": [
+        "meteor-platform",
+        "newspring:junction"
+      ],
+      "platforms": [
+        "server",
+        "browser",
+        "ios"
+      ]
+    }
+  },
+  "test": {
+    "before": "meteor run",
+    "mocha-casperjs": {
+      "src": "out/tests/**/*"
+    },
+    "after": "meteor close"
+  },
+  "server": {
+    "port": "3000"
+  }
+}
