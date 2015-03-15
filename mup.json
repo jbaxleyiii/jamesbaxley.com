@@ -3,7 +3,7 @@
   "servers": [
     {
       "host": "54.69.68.14",
-      "username": "ubuntu"
+      "username": "ubuntu",
       // "password": "password"
       // or pem file (ssh based authentication)
       "pem": "./config.pem"
