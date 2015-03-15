@@ -2,7 +2,7 @@
 APP_HOST=52.11.217.9
 
 # If you want a different ROOT_URL, when using a load balancer for instance, set it here
-#ROOT_URL=mycustom.url.com
+ROOT_URL=http://jamesbaxley.com
 
 # Comment this if your host is not an EC2 instance
 EC2_PEM_FILE=./workbench.pem
@@ -27,8 +27,6 @@ APP_PATH=.
 
 # Specify location of .meteor folder
 METEOR_APP=./out
-
-
 
 
 # If you would like to use a different branch, set it here
