@@ -42,3 +42,4 @@ vendor
 settings.json
 workbench.pem
 meteoric.config.sh
+mup.json

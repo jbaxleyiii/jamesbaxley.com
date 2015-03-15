@@ -38,7 +38,9 @@
       "@extend": "copy",
       "src": "./settings",
       "dest": "out/settings/",
-      "ext": ["json"]
+      "ext": [
+        "json"
+      ]
     },
     "meteor": {
       "src": "out",
@@ -69,7 +71,7 @@
         "useraccounts:unstyled",
         "accounts-password",
         "ryw:blog",
-        "meteorhacks:kadira"
+        "meteorhacks:kadira-profiler"
       ],
       "platforms": [
         "server",
