@@ -1,8 +1,8 @@
 # IP or URL of the server you want to deploy to
-APP_HOST=52.11.217.9
+APP_HOST=ec2-52-10-14-68.us-west-2.compute.amazonaws.com/
 
 # If you want a different ROOT_URL, when using a load balancer for instance, set it here
-ROOT_URL=http://jamesbaxley.com
+# ROOT_URL=http://jamesbaxley.com
 
 # Comment this if your host is not an EC2 instance
 EC2_PEM_FILE=./workbench.pem
@@ -20,7 +20,7 @@ METEOR_RELEASE=1.0.3.2
 #MAIL_URL=smtp://USERNAME:PASSWORD@smtp.googlemail.com:465
 
 # What's your app name?
-APP_NAME=jamesbaxley.com
+APP_NAME=out
 
 # If your app is not on the repository root, set this
 APP_PATH=.
