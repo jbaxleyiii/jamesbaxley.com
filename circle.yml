@@ -1,8 +1,10 @@
 ## Customize dependencies
 dependencies:
   pre:
+    - apt-get install sshpass
     - npm install normajs -g
     - curl https://install.meteor.com/ | sh
+    - npm install mup -g
 
 ## Customize test commands
 test:
@@ -17,3 +19,4 @@ deployment:
     branch: master
     commands:
       - echo time to deploy
+      - mup deploy
