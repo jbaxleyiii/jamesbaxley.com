@@ -33,7 +33,7 @@
     "PORT": 80,
     "ROOT_URL": "http://www.jamesbaxley.com",
     "CLUSTER_SERVICE": "web",
-    "CLUSTER_DISCOVERY_URL": "mongodb://127.0.0.1/out"
+    "CLUSTER_DISCOVERY_URL": "mongodb://127.0.0.1/out",
     "METEOR_SETTINGS": $METEOR_SETTINGS
   },
 
