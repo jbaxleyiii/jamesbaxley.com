@@ -13,7 +13,7 @@ test:
 
 ## Customize deployment commands
 deployment:
-  staging:
-    branch: feature-ci
+  production:
+    branch: master
     commands:
       - echo time to deploy
