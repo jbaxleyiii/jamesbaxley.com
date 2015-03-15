@@ -1,0 +1,19 @@
+## Customize dependencies
+dependencies:
+  pre:
+    - npm install normajs -g
+    - curl https://install.meteor.com/ | sh
+
+## Customize test commands
+test:
+  pre:
+    - norma build
+  override:
+    - norma test # use Norma for testing
+
+## Customize deployment commands
+deployment:
+  staging:
+    branch: feature-ci
+    commands:
+      - echo time to deploy
