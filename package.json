@@ -9,10 +9,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "norma-meteor": "^0.3.8",
     "norma-mocha-casperjs": "^0.1.10"
   },
   "dependencies": {
+    "norma-meteor": "^0.3.9",
     "norma-bower": "^0.3.2",
     "norma-copy": "^0.4.0",
     "norma-javascript": "^0.4.1",

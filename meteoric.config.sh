@@ -1,8 +1,8 @@
 # IP or URL of the server you want to deploy to
-APP_HOST=52.10.14.68
+APP_HOST=54.68.210.176
 
 # If you want a different ROOT_URL, when using a load balancer for instance, set it here
-ROOT_URL=http://ec2-52-10-14-68.us-west-2.compute.amazonaws.com
+ROOT_URL=http://www.jamesbaxley.com
 
 # Comment this if your host is not an EC2 instance
 EC2_PEM_FILE=./workbench.pem
@@ -37,6 +37,6 @@ FORCE_CLEAN=false
 
 # If you want to do something before forever starts Meteor, you can do it here
 # NOTE: Don't forget to use a semi-colon at the end of every command
-PRE_METEOR_START="export ROOT_URL=http://52.10.14.68;"
+# PRE_METEOR_START="export ROOT_URL=http://52.10.14.68;"
 
 # PORT=80 MONGO_URL=mongodb://localhost:27017/out ROOT_URL=http://ec2-52-10-14-68.us-west-2.compute.amazonaws.com node bundle/main.js

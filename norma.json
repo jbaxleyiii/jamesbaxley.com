@@ -41,7 +41,6 @@
       "ext": ["json"]
     },
     "meteor": {
-      "dev": true,
       "src": "out",
       "build": {
         "dest": "build",
