@@ -1,7 +1,6 @@
 ## Customize dependencies
 dependencies:
   pre:
-    - apt-get install sshpass
     - npm install normajs -g
     - curl https://install.meteor.com/ | sh
     - npm install mup -g
