@@ -6,7 +6,7 @@
       "username": "ubuntu"
       // "password": "password"
       // or pem file (ssh based authentication)
-      // "pem": "./workbench.pem"
+      "pem": "./config.pem"
     }
   ],
 

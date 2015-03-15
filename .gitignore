@@ -40,4 +40,4 @@ vendor/*
 vendor
 
 settings.json
-workbench.pem
+config.pem

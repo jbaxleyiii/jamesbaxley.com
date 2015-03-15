@@ -17,5 +17,6 @@ deployment:
   production:
     branch: master
     commands:
-      - echo time to deploy
+      # temporary hack to write to file
+      - echo $PEM > config.pem
       - mup deploy
