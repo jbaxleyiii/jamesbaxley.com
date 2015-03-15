@@ -1,8 +1,8 @@
 # IP or URL of the server you want to deploy to
-APP_HOST=ec2-52-10-14-68.us-west-2.compute.amazonaws.com/
+APP_HOST=52.10.14.68
 
 # If you want a different ROOT_URL, when using a load balancer for instance, set it here
-# ROOT_URL=http://jamesbaxley.com
+ROOT_URL=ec2-52-10-14-68.us-west-2.compute.amazonaws.com/
 
 # Comment this if your host is not an EC2 instance
 EC2_PEM_FILE=./workbench.pem
