@@ -1,0 +1,27 @@
+{
+  // Server authentication info
+  "servers": [
+    {
+      // "host": "45.55.80.192",
+      "host": "104.131.28.5",
+      "username": "root",
+      "password": "Liamgray1@",
+      "env": {
+        "CLUSTER_DISCOVERY_URL": "mongodb://dapperink:d33ps0uth@@c239.candidate.6.mongolayer.com:10239,candidate.5.mongolayer.com:10350/dapperink?replicaSet=set-55abe2bbeda2c48b11000a3f",
+        "CLUSTER_SERVICE": "dapper"
+      }
+    }
+  ],
+  "setupMongo": false,
+  "appName": "dapperink",
+  "app": "dapperink",
+  "env": {
+    // "ROOT_URL": "https://dapperink.jamesbaxley.com",
+    "ROOT_URL": "https://dapper.jamesbaxley.com",
+
+    "MONGO_URL": "mongodb://dapperink:d33ps0uth@c239.candidate.6.mongolayer.com:10239,candidate.5.mongolayer.com:10350/dapperink?replicaSet=set-55abe2bbeda2c48b11000a3f",
+    "MONGO_OPLOG_URL": "mongodb://dapperink-oplog:d33ps0uth@c239.candidate.6.mongolayer.com:10239,candidate.5.mongolayer.com:10350/local?authSource=dapperink&replicaSet=set-55abe2bbeda2c48b11000a3f"
+  },
+  "deployCheckWaitTime": 120,
+  "enableUploadProgressBar": false
+}

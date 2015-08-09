@@ -1,0 +1,13 @@
+{
+  "name": "settings",
+  "homepage": "https://github.com/jbaxleyiii/settings",
+  "_release": "7889b0d627",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7889b0d62767b6a0a8ff073b40bd0a55d4717e25"
+  },
+  "_source": "https://github.com/jbaxleyiii/settings.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/jbaxleyiii/settings.git"
+}

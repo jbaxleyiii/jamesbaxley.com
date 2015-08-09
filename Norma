@@ -1,0 +1,55 @@
+
+name: "Venport"
+tasks:
+
+  link:
+    endpoint: "NewSpring/norma-link"
+    "venport":
+      build: ["packages@package"]
+      packages: "normajs/apollos-core#refactor-package"
+    "vendor":
+      framework: "NewSpring/junction-framework"
+
+  bower:
+    "venport/":
+      settings: "https://github.com/jbaxleyiii/settings.git"
+
+  sass:
+    group: "assets"
+    src: "_source/client/stylesheets/**/*"
+    dest: "venport/client/stylesheets"
+    lint: true
+    comb: true
+
+  javascript:
+    group: "assets"
+    src: "_source/**/*"
+    dest: "venport"
+
+  markup:
+    group: "assets"
+    src: "_source/client/templates/**/*"
+    dest: "venport/client/templates"
+    minify: true
+
+  meteor:
+    "src": "venport"
+    # "settings": "dapperink/settings/sites/dapperink/settings.json"
+    "packages": [
+      "meteor-platform"
+      # "newspring:apollos-core"
+      "newspring:apollos-namespace"
+      "newspring:apollos-collection-helpers"
+      "newspring:apollos-components"
+      "newspring:apollos-helpers"
+      "newspring:apollos-layout"
+      "newspring:apollos-router"
+      # "meteorhacks:fast-render"
+      # "meteorhacks:subs-manager"
+      # "meteorhacks:kadira"
+      # "hybrid:device"
+    ]
+    "platforms": [
+      "server"
+      "browser"
+    ]

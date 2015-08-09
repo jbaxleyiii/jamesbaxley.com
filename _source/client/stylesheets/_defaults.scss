@@ -1,0 +1,119 @@
+
+$is-newspring: false;
+$base-border-radius: 0;
+$base-border-size: 4px;
+$colors: extend($colors, (
+  "primary": #88a388,
+  "secondary": #657c69,
+  "tertiary": #3c563c
+));
+$fonts: extend($fonts, (
+  alegreya: (
+    h1: (
+      font-family: "Alegreya Sans SC",
+      font-size: 2.25em,
+      line-height: .9,
+      letter-spacing: 8px,
+      font-weight: 100,
+      text-transform: uppercase,
+      margin-bottom: $base-spacing-unit,
+      media-query: (
+        handheld: (
+          font-size: 2.25em
+        )
+      )
+    ),
+    h2: (
+      font-family: "Alegreya Sans SC",
+      font-size: 2.25em,
+      letter-spacing: 3px,
+      line-height: .9,
+      text-transform: uppercase,
+      margin-bottom: $base-spacing-unit
+    ),
+    h2 small: (
+      font-size: .5em,
+      line-height: 2
+    ),
+    h3: (
+      font-family: "Alegreya Sans SC",
+      font-size: 1.75em,
+      line-height: .9,
+      font-weight: 300,
+      text-transform: uppercase,
+      margin-bottom: $base-spacing-unit
+    ),
+    h4: (
+      font-family: "Alegreya Sans SC",
+      font-size: 1.15em,
+      line-height: 1,
+      font-weight: 400,
+      text-transform: uppercase,
+      margin-bottom: $half-spacing-unit
+    ),
+    h5: (
+      font-family: "Alegreya Sans SC",
+      font-size: .875em,
+      line-height: 1,
+      font-weight: 400,
+      margin-bottom: $half-spacing-unit
+    ),
+    h5 small: (
+      color: lighten(map-get($colors, dark-tertiary), 10)
+    ),
+    h6: (
+      font-family: "Alegreya Sans SC",
+      font-size: 1em,
+      line-height: 1,
+      margin-bottom: $half-spacing-unit
+    )
+  ),
+  "serif": (
+    h6: (
+      font-family: "georgia",
+      font-size: .75em,
+      line-height: 1.15,
+      margin-bottom: $half-spacing-unit
+    ),
+    p: (
+      font-size: .875em,
+      line-height: 1.25,
+      font-family: "georgia",
+      margin-bottom: $base-spacing-unit
+    ),
+    small: (
+      font-size: .875em,
+      line-height: 1.15
+    )
+  )
+));
+$headings: "alegreya";
+// type sets
+$typography: extend($typography, (
+  h1: $headings,
+  h2: $headings,
+  h2 small: $headings,
+  h3: $headings,
+  h4: $headings,
+  h5: $headings,
+  h5 small: $headings,
+  h6: "serif",
+  p: "serif",
+  small: "serif"
+));
+$ratios: extend($ratios, (
+  ratio--picture: (
+    width: 1,
+    height: 1.25
+  ),
+  ratio--thin: (
+    width: 3,
+    height: 1
+  )
+));
+$constraints: (
+  "project": (
+    min-width: 240px,
+    max-width: 768px
+  )
+);

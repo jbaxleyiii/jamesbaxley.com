@@ -1,0 +1,13 @@
+.asteroid {
+	position: absolute;
+	z-index: 10;
+	width: 10px;
+	height: 150px;
+	opacity: 0;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	background: #505050;
+}
+

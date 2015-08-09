@@ -1,22 +1,26 @@
 {
   "name": "jamesbaxley.com",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Portfolio site for myself",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "norma-mocha-casperjs": "^0.1.10"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaxleyiii/jamesbaxley.com.git"
   },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "jbaxleyiii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbaxleyiii/jamesbaxley.com/issues"
+  },
+  "homepage": "https://github.com/jbaxleyiii/jamesbaxley.com#readme",
   "dependencies": {
-    "norma-meteor": "^0.3.11",
-    "norma-bower": "^0.3.2",
-    "norma-copy": "^0.4.0",
-    "norma-javascript": "^0.4.1",
-    "norma-markup": "^0.5.2",
-    "norma-sass": "^0.4.6"
+    "norma-markup": "^0.5.6",
+    "norma-sass": "^0.4.9"
   }
 }

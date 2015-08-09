@@ -1,0 +1,26 @@
+
+<template name="home">
+
+  <section data-float-center>
+    <div class="one-whole text-center" >
+
+      <h1 class="flush hard push-double-top">
+        Venport
+      </h1>
+
+
+      {{#if animationsFinished.get}}
+        {{> siteContent}}
+      {{/if}}
+
+    </div>
+  </section>
+
+
+  {{#each asteroids}}
+    <div class="asteroid" data-asteroid="{{name}}" style="top: {{top}}; left: {{left}}"></div>
+  {{/each}}
+
+
+
+</template>
